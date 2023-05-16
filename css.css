@@ -1,0 +1,67 @@
+
+.divStatic{
+    position: static;
+    top: 50px;
+    text-align: center;
+}
+.divSticky{
+    background-color: rgb(255, 255, 255);
+    position:sticky;
+    right:10px;
+    top:0px;    
+    float: right;
+    width: 250px;
+    border: solid 3px #000000;
+}
+.h2bonito {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;}
+a:link, a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover, a:active{
+    text-decoration:    rgb(162, 83, 237) underline 5px;
+}
+
+main{ 
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+body{
+    width:auto;
+}
+
+div.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#topo{
+    text-decoration: none;
+    color: #000000;
+    background-color: whitesmoke ;
+    padding: 10px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 100%;
+    font-size: 250%;
+    opacity: 50%;
+  }
+  #topo:hover{
+    opacity: 100%;    
+  }
+  div.relative {
+    position: relative;
+   
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right:100px;
+    left: 610px;
+  }
